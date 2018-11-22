@@ -1,0 +1,6 @@
+com\yue\sso\server\Application.class
+com\yue\sso\server\controller\LoginController.class
+com\yue\sso\server\config\LoginInterceptor.class
+com\yue\sso\server\service\TokenService.class
+com\yue\sso\server\service\LoginService.class
+com\yue\sso\server\config\MvcConfig.class

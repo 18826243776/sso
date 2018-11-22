@@ -1,0 +1,1330 @@
+2018-11-20 14:10:34.390  INFO [main] [Application 50] : Starting Application on DESKTOP-S4M69L0 with PID 18956 (D:\github\sso\sso-server\target\classes started by lin in D:\github\sso\sso-server)
+2018-11-20 14:10:34.395  INFO [main] [Application 675] : No active profile set, falling back to default profiles: default
+2018-11-20 14:10:36.167  INFO [main] [TomcatWebServer 90] : Tomcat initialized with port(s): 8080 (http)
+2018-11-20 14:10:36.185  INFO [main] [Http11NioProtocol 173] : Initializing ProtocolHandler ["http-nio-8080"]
+2018-11-20 14:10:36.198  INFO [main] [StandardService 173] : Starting service [Tomcat]
+2018-11-20 14:10:36.198  INFO [main] [StandardEngine 173] : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-20 14:10:36.211  INFO [main] [AprLifecycleListener 173] : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;E:\oracle\product\11.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\myapplication\apache-maven-3.3.9\bin;E:\nodejs\;E:\Git\cmd;E:\Git\bin;C:\Ruby25-x64\bin;C:\Users\lin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Users\lin\AppData\Local\GitHubDesktop\bin;C:\Users\lin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\TortoiseSVN\bin;C:\Users\lin\Desktop\runJRE\ffmpeg\bin;C:\Users\lin\AppData\Roaming\npm;E:\Git\cmd;E:\Git\bin;;.]
+2018-11-20 14:10:36.357  INFO [main] [[/] 173] : Initializing Spring embedded WebApplicationContext
+2018-11-20 14:10:36.358  INFO [main] [ContextLoader 285] : Root WebApplicationContext: initialization completed in 1886 ms
+2018-11-20 14:10:36.416  INFO [main] [ServletRegistrationBean 186] : Servlet dispatcherServlet mapped to [/]
+2018-11-20 14:10:36.420  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-20 14:10:36.421  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-20 14:10:36.421  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-20 14:10:36.422  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-20 14:10:36.665  INFO [main] [ThreadPoolTaskExecutor 171] : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-20 14:10:36.954  INFO [main] [Http11NioProtocol 173] : Starting ProtocolHandler ["http-nio-8080"]
+2018-11-20 14:10:36.974  INFO [main] [NioSelectorPool 173] : Using a shared selector for servlet write/read
+2018-11-20 14:10:36.992  INFO [main] [TomcatWebServer 204] : Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-20 14:10:36.996  INFO [main] [Application 59] : Started Application in 3.069 seconds (JVM running for 3.571)
+2018-11-20 14:11:44.820  INFO [http-nio-8080-exec-1] [[/] 173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-20 14:11:44.821  INFO [http-nio-8080-exec-1] [DispatcherServlet 521] : Initializing Servlet 'dispatcherServlet'
+2018-11-20 14:11:44.826  INFO [http-nio-8080-exec-1] [DispatcherServlet 543] : Completed initialization in 5 ms
+2018-11-20 14:13:43.263  INFO [main] [Application 50] : Starting Application on DESKTOP-S4M69L0 with PID 19448 (D:\github\sso\sso-server\target\classes started by lin in D:\github\sso\sso-server)
+2018-11-20 14:13:43.269  INFO [main] [Application 675] : No active profile set, falling back to default profiles: default
+2018-11-20 14:13:44.845  INFO [main] [TomcatWebServer 90] : Tomcat initialized with port(s): 8080 (http)
+2018-11-20 14:13:44.857  INFO [main] [Http11NioProtocol 173] : Initializing ProtocolHandler ["http-nio-8080"]
+2018-11-20 14:13:44.864  INFO [main] [StandardService 173] : Starting service [Tomcat]
+2018-11-20 14:13:44.865  INFO [main] [StandardEngine 173] : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-20 14:13:44.875  INFO [main] [AprLifecycleListener 173] : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;E:\oracle\product\11.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\myapplication\apache-maven-3.3.9\bin;E:\nodejs\;E:\Git\cmd;E:\Git\bin;C:\Ruby25-x64\bin;C:\Users\lin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Users\lin\AppData\Local\GitHubDesktop\bin;C:\Users\lin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\TortoiseSVN\bin;C:\Users\lin\Desktop\runJRE\ffmpeg\bin;C:\Users\lin\AppData\Roaming\npm;E:\Git\cmd;E:\Git\bin;;.]
+2018-11-20 14:13:44.985  INFO [main] [[/] 173] : Initializing Spring embedded WebApplicationContext
+2018-11-20 14:13:44.985  INFO [main] [ContextLoader 285] : Root WebApplicationContext: initialization completed in 1641 ms
+2018-11-20 14:13:45.014  INFO [main] [ServletRegistrationBean 186] : Servlet dispatcherServlet mapped to [/]
+2018-11-20 14:13:45.018  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-20 14:13:45.019  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-20 14:13:45.019  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-20 14:13:45.019  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-20 14:13:45.257  INFO [main] [ThreadPoolTaskExecutor 171] : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-20 14:13:45.531  INFO [main] [Http11NioProtocol 173] : Starting ProtocolHandler ["http-nio-8080"]
+2018-11-20 14:13:45.548  INFO [main] [NioSelectorPool 173] : Using a shared selector for servlet write/read
+2018-11-20 14:13:45.570  INFO [main] [TomcatWebServer 204] : Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-20 14:13:45.573  INFO [main] [Application 59] : Started Application in 2.786 seconds (JVM running for 3.272)
+2018-11-20 14:14:11.214  INFO [http-nio-8080-exec-1] [[/] 173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-20 14:14:11.214  INFO [http-nio-8080-exec-1] [DispatcherServlet 521] : Initializing Servlet 'dispatcherServlet'
+2018-11-20 14:14:11.221  INFO [http-nio-8080-exec-1] [DispatcherServlet 543] : Completed initialization in 7 ms
+2018-11-20 14:55:42.013  INFO [main] [Application 50] : Starting Application on DESKTOP-S4M69L0 with PID 11676 (D:\github\sso\sso-server\target\classes started by lin in D:\github\sso\sso-server)
+2018-11-20 14:55:42.017  INFO [main] [Application 675] : No active profile set, falling back to default profiles: default
+2018-11-20 14:55:43.528  INFO [main] [TomcatWebServer 90] : Tomcat initialized with port(s): 8080 (http)
+2018-11-20 14:55:43.543  INFO [main] [Http11NioProtocol 173] : Initializing ProtocolHandler ["http-nio-8080"]
+2018-11-20 14:55:43.549  INFO [main] [StandardService 173] : Starting service [Tomcat]
+2018-11-20 14:55:43.550  INFO [main] [StandardEngine 173] : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-20 14:55:43.559  INFO [main] [AprLifecycleListener 173] : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;E:\oracle\product\11.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\myapplication\apache-maven-3.3.9\bin;E:\nodejs\;E:\Git\cmd;E:\Git\bin;C:\Ruby25-x64\bin;C:\Users\lin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Users\lin\AppData\Local\GitHubDesktop\bin;C:\Users\lin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\TortoiseSVN\bin;C:\Users\lin\Desktop\runJRE\ffmpeg\bin;C:\Users\lin\AppData\Roaming\npm;E:\Git\cmd;E:\Git\bin;;.]
+2018-11-20 14:55:43.654  INFO [main] [[/] 173] : Initializing Spring embedded WebApplicationContext
+2018-11-20 14:55:43.654  INFO [main] [ContextLoader 285] : Root WebApplicationContext: initialization completed in 1578 ms
+2018-11-20 14:55:43.679  INFO [main] [ServletRegistrationBean 186] : Servlet dispatcherServlet mapped to [/]
+2018-11-20 14:55:43.682  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-20 14:55:43.683  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-20 14:55:43.683  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-20 14:55:43.683  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-20 14:55:43.907  INFO [main] [ThreadPoolTaskExecutor 171] : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-20 14:55:44.132  INFO [main] [Http11NioProtocol 173] : Starting ProtocolHandler ["http-nio-8080"]
+2018-11-20 14:55:44.143  INFO [main] [NioSelectorPool 173] : Using a shared selector for servlet write/read
+2018-11-20 14:55:44.159  INFO [main] [TomcatWebServer 204] : Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-20 14:55:44.163  INFO [main] [Application 59] : Started Application in 2.598 seconds (JVM running for 3.215)
+2018-11-20 14:55:56.921  INFO [http-nio-8080-exec-1] [[/] 173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-20 14:55:56.921  INFO [http-nio-8080-exec-1] [DispatcherServlet 521] : Initializing Servlet 'dispatcherServlet'
+2018-11-20 14:55:56.928  INFO [http-nio-8080-exec-1] [DispatcherServlet 543] : Completed initialization in 7 ms
+2018-11-20 14:57:14.801 ERROR [http-nio-8080-exec-4] [[dispatcherServlet] 175] : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalStateException: Cannot call sendError() after the response has been committed] with root cause
+java.lang.IllegalStateException: Cannot call sendError() after the response has been committed
+	at org.apache.catalina.connector.ResponseFacade.sendError(ResponseFacade.java:472)
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:454)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:53)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:998)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:890)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:875)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2018-11-20 15:00:41.314  INFO [main] [Application 50] : Starting Application on DESKTOP-S4M69L0 with PID 9676 (D:\github\sso\sso-server\target\classes started by lin in D:\github\sso\sso-server)
+2018-11-20 15:00:41.318  INFO [main] [Application 675] : No active profile set, falling back to default profiles: default
+2018-11-20 15:00:43.426  INFO [main] [TomcatWebServer 90] : Tomcat initialized with port(s): 8080 (http)
+2018-11-20 15:00:43.448  INFO [main] [Http11NioProtocol 173] : Initializing ProtocolHandler ["http-nio-8080"]
+2018-11-20 15:00:43.462  INFO [main] [StandardService 173] : Starting service [Tomcat]
+2018-11-20 15:00:43.463  INFO [main] [StandardEngine 173] : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-20 15:00:43.493  INFO [main] [AprLifecycleListener 173] : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;E:\oracle\product\11.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\myapplication\apache-maven-3.3.9\bin;E:\nodejs\;E:\Git\cmd;E:\Git\bin;C:\Ruby25-x64\bin;C:\Users\lin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Users\lin\AppData\Local\GitHubDesktop\bin;C:\Users\lin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\TortoiseSVN\bin;C:\Users\lin\Desktop\runJRE\ffmpeg\bin;C:\Users\lin\AppData\Roaming\npm;E:\Git\cmd;E:\Git\bin;;.]
+2018-11-20 15:00:43.847  INFO [main] [[/] 173] : Initializing Spring embedded WebApplicationContext
+2018-11-20 15:00:43.848  INFO [main] [ContextLoader 285] : Root WebApplicationContext: initialization completed in 2337 ms
+2018-11-20 15:00:43.899  INFO [main] [ServletRegistrationBean 186] : Servlet dispatcherServlet mapped to [/]
+2018-11-20 15:00:43.937  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-20 15:00:43.939  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-20 15:00:43.939  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-20 15:00:43.943  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-20 15:00:44.401  INFO [main] [ThreadPoolTaskExecutor 171] : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-20 15:00:45.187  INFO [main] [Http11NioProtocol 173] : Starting ProtocolHandler ["http-nio-8080"]
+2018-11-20 15:00:45.201  INFO [main] [NioSelectorPool 173] : Using a shared selector for servlet write/read
+2018-11-20 15:00:45.266  INFO [main] [TomcatWebServer 204] : Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-20 15:00:45.271  INFO [main] [Application 59] : Started Application in 4.672 seconds (JVM running for 5.16)
+2018-11-20 15:00:57.604  INFO [http-nio-8080-exec-1] [[/] 173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-20 15:00:57.605  INFO [http-nio-8080-exec-1] [DispatcherServlet 521] : Initializing Servlet 'dispatcherServlet'
+2018-11-20 15:00:57.611  INFO [http-nio-8080-exec-1] [DispatcherServlet 543] : Completed initialization in 6 ms
+2018-11-20 15:01:08.163 ERROR [http-nio-8080-exec-10] [[dispatcherServlet] 175] : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalStateException: Cannot call sendError() after the response has been committed] with root cause
+java.lang.IllegalStateException: Cannot call sendError() after the response has been committed
+	at org.apache.catalina.connector.ResponseFacade.sendError(ResponseFacade.java:472)
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:454)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:53)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:998)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:890)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:875)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2018-11-20 15:02:59.458  INFO [main] [Application 50] : Starting Application on DESKTOP-S4M69L0 with PID 16040 (D:\github\sso\sso-server\target\classes started by lin in D:\github\sso\sso-server)
+2018-11-20 15:02:59.462  INFO [main] [Application 675] : No active profile set, falling back to default profiles: default
+2018-11-20 15:03:01.533  INFO [main] [TomcatWebServer 90] : Tomcat initialized with port(s): 8080 (http)
+2018-11-20 15:03:01.544  INFO [main] [Http11NioProtocol 173] : Initializing ProtocolHandler ["http-nio-8080"]
+2018-11-20 15:03:01.550  INFO [main] [StandardService 173] : Starting service [Tomcat]
+2018-11-20 15:03:01.551  INFO [main] [StandardEngine 173] : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-20 15:03:01.559  INFO [main] [AprLifecycleListener 173] : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;E:\oracle\product\11.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\myapplication\apache-maven-3.3.9\bin;E:\nodejs\;E:\Git\cmd;E:\Git\bin;C:\Ruby25-x64\bin;C:\Users\lin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Users\lin\AppData\Local\GitHubDesktop\bin;C:\Users\lin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\TortoiseSVN\bin;C:\Users\lin\Desktop\runJRE\ffmpeg\bin;C:\Users\lin\AppData\Roaming\npm;E:\Git\cmd;E:\Git\bin;;.]
+2018-11-20 15:03:01.657  INFO [main] [[/] 173] : Initializing Spring embedded WebApplicationContext
+2018-11-20 15:03:01.658  INFO [main] [ContextLoader 285] : Root WebApplicationContext: initialization completed in 2131 ms
+2018-11-20 15:03:01.682  INFO [main] [ServletRegistrationBean 186] : Servlet dispatcherServlet mapped to [/]
+2018-11-20 15:03:01.687  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-20 15:03:01.687  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-20 15:03:01.687  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-20 15:03:01.688  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-20 15:03:01.935  INFO [main] [ThreadPoolTaskExecutor 171] : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-20 15:03:02.176  INFO [main] [Http11NioProtocol 173] : Starting ProtocolHandler ["http-nio-8080"]
+2018-11-20 15:03:02.189  INFO [main] [NioSelectorPool 173] : Using a shared selector for servlet write/read
+2018-11-20 15:03:02.210  INFO [main] [TomcatWebServer 204] : Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-20 15:03:02.214  INFO [main] [Application 59] : Started Application in 3.262 seconds (JVM running for 3.732)
+2018-11-20 15:03:15.618  INFO [http-nio-8080-exec-1] [[/] 173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-20 15:03:15.619  INFO [http-nio-8080-exec-1] [DispatcherServlet 521] : Initializing Servlet 'dispatcherServlet'
+2018-11-20 15:03:15.624  INFO [http-nio-8080-exec-1] [DispatcherServlet 543] : Completed initialization in 5 ms
+2018-11-20 15:04:49.440 ERROR [http-nio-8080-exec-3] [[dispatcherServlet] 175] : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalStateException: Cannot call sendError() after the response has been committed] with root cause
+java.lang.IllegalStateException: Cannot call sendError() after the response has been committed
+	at org.apache.catalina.connector.ResponseFacade.sendError(ResponseFacade.java:472)
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:454)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:53)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:998)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:890)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:875)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2018-11-20 15:05:47.247 ERROR [http-nio-8080-exec-6] [[dispatcherServlet] 175] : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalStateException: Cannot call sendError() after the response has been committed] with root cause
+java.lang.IllegalStateException: Cannot call sendError() after the response has been committed
+	at org.apache.catalina.connector.ResponseFacade.sendError(ResponseFacade.java:472)
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:454)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:53)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:998)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:890)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:875)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2018-11-20 15:18:45.221 ERROR [http-nio-8080-exec-10] [[dispatcherServlet] 175] : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalStateException: Cannot call sendError() after the response has been committed] with root cause
+java.lang.IllegalStateException: Cannot call sendError() after the response has been committed
+	at org.apache.catalina.connector.ResponseFacade.sendError(ResponseFacade.java:472)
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:454)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:53)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:998)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:890)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:875)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2018-11-20 15:19:04.416  INFO [main] [Application 50] : Starting Application on DESKTOP-S4M69L0 with PID 16720 (D:\github\sso\sso-server\target\classes started by lin in D:\github\sso\sso-server)
+2018-11-20 15:19:04.424  INFO [main] [Application 675] : No active profile set, falling back to default profiles: default
+2018-11-20 15:19:05.984  INFO [main] [TomcatWebServer 90] : Tomcat initialized with port(s): 8080 (http)
+2018-11-20 15:19:05.998  INFO [main] [Http11NioProtocol 173] : Initializing ProtocolHandler ["http-nio-8080"]
+2018-11-20 15:19:06.005  INFO [main] [StandardService 173] : Starting service [Tomcat]
+2018-11-20 15:19:06.005  INFO [main] [StandardEngine 173] : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-20 15:19:06.015  INFO [main] [AprLifecycleListener 173] : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;E:\oracle\product\11.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\myapplication\apache-maven-3.3.9\bin;E:\nodejs\;E:\Git\cmd;E:\Git\bin;C:\Ruby25-x64\bin;C:\Users\lin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Users\lin\AppData\Local\GitHubDesktop\bin;C:\Users\lin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\TortoiseSVN\bin;C:\Users\lin\Desktop\runJRE\ffmpeg\bin;C:\Users\lin\AppData\Roaming\npm;E:\Git\cmd;E:\Git\bin;;.]
+2018-11-20 15:19:06.122  INFO [main] [[/] 173] : Initializing Spring embedded WebApplicationContext
+2018-11-20 15:19:06.122  INFO [main] [ContextLoader 285] : Root WebApplicationContext: initialization completed in 1638 ms
+2018-11-20 15:19:06.147  INFO [main] [ServletRegistrationBean 186] : Servlet dispatcherServlet mapped to [/]
+2018-11-20 15:19:06.151  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-20 15:19:06.151  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-20 15:19:06.151  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-20 15:19:06.151  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-20 15:19:06.377  INFO [main] [ThreadPoolTaskExecutor 171] : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-20 15:19:06.611  INFO [main] [Http11NioProtocol 173] : Starting ProtocolHandler ["http-nio-8080"]
+2018-11-20 15:19:06.624  INFO [main] [NioSelectorPool 173] : Using a shared selector for servlet write/read
+2018-11-20 15:19:06.642  INFO [main] [TomcatWebServer 204] : Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-20 15:19:06.647  INFO [main] [Application 59] : Started Application in 2.867 seconds (JVM running for 3.808)
+2018-11-20 15:19:24.199  INFO [http-nio-8080-exec-1] [[/] 173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-20 15:19:24.200  INFO [http-nio-8080-exec-1] [DispatcherServlet 521] : Initializing Servlet 'dispatcherServlet'
+2018-11-20 15:19:24.205  INFO [http-nio-8080-exec-1] [DispatcherServlet 543] : Completed initialization in 5 ms
+2018-11-20 15:22:29.841  INFO [main] [Application 50] : Starting Application on DESKTOP-S4M69L0 with PID 7088 (D:\github\sso\sso-server\target\classes started by lin in D:\github\sso\sso-server)
+2018-11-20 15:22:29.844  INFO [main] [Application 675] : No active profile set, falling back to default profiles: default
+2018-11-20 15:22:31.761  INFO [main] [TomcatWebServer 90] : Tomcat initialized with port(s): 8080 (http)
+2018-11-20 15:22:31.788  INFO [main] [Http11NioProtocol 173] : Initializing ProtocolHandler ["http-nio-8080"]
+2018-11-20 15:22:31.812  INFO [main] [StandardService 173] : Starting service [Tomcat]
+2018-11-20 15:22:31.813  INFO [main] [StandardEngine 173] : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-20 15:22:31.827  INFO [main] [AprLifecycleListener 173] : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;E:\oracle\product\11.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\myapplication\apache-maven-3.3.9\bin;E:\nodejs\;E:\Git\cmd;E:\Git\bin;C:\Ruby25-x64\bin;C:\Users\lin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Users\lin\AppData\Local\GitHubDesktop\bin;C:\Users\lin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\TortoiseSVN\bin;C:\Users\lin\Desktop\runJRE\ffmpeg\bin;C:\Users\lin\AppData\Roaming\npm;E:\Git\cmd;E:\Git\bin;;.]
+2018-11-20 15:22:32.003  INFO [main] [[/] 173] : Initializing Spring embedded WebApplicationContext
+2018-11-20 15:22:32.003  INFO [main] [ContextLoader 285] : Root WebApplicationContext: initialization completed in 2110 ms
+2018-11-20 15:22:32.135  INFO [main] [ServletRegistrationBean 186] : Servlet dispatcherServlet mapped to [/]
+2018-11-20 15:22:32.141  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-20 15:22:32.142  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-20 15:22:32.142  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-20 15:22:32.143  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-20 15:22:32.587  INFO [main] [ThreadPoolTaskExecutor 171] : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-20 15:22:32.924  INFO [main] [Http11NioProtocol 173] : Starting ProtocolHandler ["http-nio-8080"]
+2018-11-20 15:22:32.941  INFO [main] [NioSelectorPool 173] : Using a shared selector for servlet write/read
+2018-11-20 15:22:32.961  INFO [main] [TomcatWebServer 204] : Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-20 15:22:32.964  INFO [main] [Application 59] : Started Application in 3.61 seconds (JVM running for 4.076)
+2018-11-20 15:22:40.915  INFO [http-nio-8080-exec-2] [[/] 173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-20 15:22:40.916  INFO [http-nio-8080-exec-2] [DispatcherServlet 521] : Initializing Servlet 'dispatcherServlet'
+2018-11-20 15:22:40.921  INFO [http-nio-8080-exec-2] [DispatcherServlet 543] : Completed initialization in 5 ms
+2018-11-20 15:23:53.242 ERROR [http-nio-8080-exec-10] [[dispatcherServlet] 175] : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalStateException: Cannot call sendError() after the response has been committed] with root cause
+java.lang.IllegalStateException: Cannot call sendError() after the response has been committed
+	at org.apache.catalina.connector.ResponseFacade.sendError(ResponseFacade.java:472)
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:454)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:53)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:998)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:890)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:875)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2018-11-20 15:31:16.203  INFO [main] [Application 50] : Starting Application on DESKTOP-S4M69L0 with PID 12800 (D:\github\sso\sso-server\target\classes started by lin in D:\github\sso\sso-server)
+2018-11-20 15:31:16.207  INFO [main] [Application 675] : No active profile set, falling back to default profiles: default
+2018-11-20 15:31:18.040  INFO [main] [TomcatWebServer 90] : Tomcat initialized with port(s): 8080 (http)
+2018-11-20 15:31:18.070  INFO [main] [Http11NioProtocol 173] : Initializing ProtocolHandler ["http-nio-8080"]
+2018-11-20 15:31:18.106  INFO [main] [StandardService 173] : Starting service [Tomcat]
+2018-11-20 15:31:18.107  INFO [main] [StandardEngine 173] : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-20 15:31:18.127  INFO [main] [AprLifecycleListener 173] : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;E:\oracle\product\11.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\myapplication\apache-maven-3.3.9\bin;E:\nodejs\;E:\Git\cmd;E:\Git\bin;C:\Ruby25-x64\bin;C:\Users\lin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Users\lin\AppData\Local\GitHubDesktop\bin;C:\Users\lin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\TortoiseSVN\bin;C:\Users\lin\Desktop\runJRE\ffmpeg\bin;C:\Users\lin\AppData\Roaming\npm;E:\Git\cmd;E:\Git\bin;;.]
+2018-11-20 15:31:18.313  INFO [main] [[/] 173] : Initializing Spring embedded WebApplicationContext
+2018-11-20 15:31:18.314  INFO [main] [ContextLoader 285] : Root WebApplicationContext: initialization completed in 2060 ms
+2018-11-20 15:31:18.340  INFO [main] [ServletRegistrationBean 186] : Servlet dispatcherServlet mapped to [/]
+2018-11-20 15:31:18.346  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-20 15:31:18.347  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-20 15:31:18.347  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-20 15:31:18.348  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-20 15:31:18.600  INFO [main] [ThreadPoolTaskExecutor 171] : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-20 15:31:18.854  INFO [main] [Http11NioProtocol 173] : Starting ProtocolHandler ["http-nio-8080"]
+2018-11-20 15:31:18.868  INFO [main] [NioSelectorPool 173] : Using a shared selector for servlet write/read
+2018-11-20 15:31:18.884  INFO [main] [TomcatWebServer 204] : Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-20 15:31:18.888  INFO [main] [Application 59] : Started Application in 3.307 seconds (JVM running for 3.866)
+2018-11-20 15:32:10.160  INFO [http-nio-8080-exec-2] [[/] 173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-20 15:32:10.160  INFO [http-nio-8080-exec-2] [DispatcherServlet 521] : Initializing Servlet 'dispatcherServlet'
+2018-11-20 15:32:10.168  INFO [http-nio-8080-exec-2] [DispatcherServlet 543] : Completed initialization in 8 ms
+2018-11-20 15:32:27.058 ERROR [http-nio-8080-exec-10] [[dispatcherServlet] 175] : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalArgumentException: Name for argument type [java.lang.String] not available, and parameter name information not found in class file either.] with root cause
+java.lang.IllegalArgumentException: Name for argument type [java.lang.String] not available, and parameter name information not found in class file either.
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.updateNamedValueInfo(AbstractNamedValueMethodArgumentResolver.java:172)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.getNamedValueInfo(AbstractNamedValueMethodArgumentResolver.java:149)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:98)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:124)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:165)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:998)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:901)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:875)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2018-11-20 15:34:36.522  INFO [main] [Application 50] : Starting Application on DESKTOP-S4M69L0 with PID 11176 (D:\github\sso\sso-server\target\classes started by lin in D:\github\sso\sso-server)
+2018-11-20 15:34:36.525  INFO [main] [Application 675] : No active profile set, falling back to default profiles: default
+2018-11-20 15:34:38.611  INFO [main] [TomcatWebServer 90] : Tomcat initialized with port(s): 8080 (http)
+2018-11-20 15:34:38.631  INFO [main] [Http11NioProtocol 173] : Initializing ProtocolHandler ["http-nio-8080"]
+2018-11-20 15:34:38.643  INFO [main] [StandardService 173] : Starting service [Tomcat]
+2018-11-20 15:34:38.645  INFO [main] [StandardEngine 173] : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-20 15:34:38.658  INFO [main] [AprLifecycleListener 173] : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;E:\oracle\product\11.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\myapplication\apache-maven-3.3.9\bin;E:\nodejs\;E:\Git\cmd;E:\Git\bin;C:\Ruby25-x64\bin;C:\Users\lin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Users\lin\AppData\Local\GitHubDesktop\bin;C:\Users\lin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\TortoiseSVN\bin;C:\Users\lin\Desktop\runJRE\ffmpeg\bin;C:\Users\lin\AppData\Roaming\npm;E:\Git\cmd;E:\Git\bin;;.]
+2018-11-20 15:34:38.814  INFO [main] [[/] 173] : Initializing Spring embedded WebApplicationContext
+2018-11-20 15:34:38.817  INFO [main] [ContextLoader 285] : Root WebApplicationContext: initialization completed in 2173 ms
+2018-11-20 15:34:38.865  INFO [main] [ServletRegistrationBean 186] : Servlet dispatcherServlet mapped to [/]
+2018-11-20 15:34:38.876  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-20 15:34:38.880  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-20 15:34:38.880  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-20 15:34:38.880  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-20 15:34:39.169  INFO [main] [ThreadPoolTaskExecutor 171] : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-20 15:34:39.459  INFO [main] [Http11NioProtocol 173] : Starting ProtocolHandler ["http-nio-8080"]
+2018-11-20 15:34:39.480  INFO [main] [NioSelectorPool 173] : Using a shared selector for servlet write/read
+2018-11-20 15:34:39.503  INFO [main] [TomcatWebServer 204] : Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-20 15:34:39.506  INFO [main] [Application 59] : Started Application in 3.56 seconds (JVM running for 4.17)
+2018-11-20 15:34:41.854  INFO [http-nio-8080-exec-1] [[/] 173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-20 15:34:41.854  INFO [http-nio-8080-exec-1] [DispatcherServlet 521] : Initializing Servlet 'dispatcherServlet'
+2018-11-20 15:34:41.859  INFO [http-nio-8080-exec-1] [DispatcherServlet 543] : Completed initialization in 5 ms
+2018-11-20 15:36:21.880  INFO [main] [Application 50] : Starting Application on DESKTOP-S4M69L0 with PID 16452 (D:\github\sso\sso-server\target\classes started by lin in D:\github\sso\sso-server)
+2018-11-20 15:36:21.886  INFO [main] [Application 675] : No active profile set, falling back to default profiles: default
+2018-11-20 15:36:23.357  INFO [main] [TomcatWebServer 90] : Tomcat initialized with port(s): 8080 (http)
+2018-11-20 15:36:23.377  INFO [main] [Http11NioProtocol 173] : Initializing ProtocolHandler ["http-nio-8080"]
+2018-11-20 15:36:23.385  INFO [main] [StandardService 173] : Starting service [Tomcat]
+2018-11-20 15:36:23.385  INFO [main] [StandardEngine 173] : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-20 15:36:23.404  INFO [main] [AprLifecycleListener 173] : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;E:\oracle\product\11.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\myapplication\apache-maven-3.3.9\bin;E:\nodejs\;E:\Git\cmd;E:\Git\bin;C:\Ruby25-x64\bin;C:\Users\lin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Users\lin\AppData\Local\GitHubDesktop\bin;C:\Users\lin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\TortoiseSVN\bin;C:\Users\lin\Desktop\runJRE\ffmpeg\bin;C:\Users\lin\AppData\Roaming\npm;E:\Git\cmd;E:\Git\bin;;.]
+2018-11-20 15:36:23.537  INFO [main] [[/] 173] : Initializing Spring embedded WebApplicationContext
+2018-11-20 15:36:23.537  INFO [main] [ContextLoader 285] : Root WebApplicationContext: initialization completed in 1523 ms
+2018-11-20 15:36:23.564  INFO [main] [ServletRegistrationBean 186] : Servlet dispatcherServlet mapped to [/]
+2018-11-20 15:36:23.568  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-20 15:36:23.569  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-20 15:36:23.569  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-20 15:36:23.570  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-20 15:36:23.774  INFO [main] [ThreadPoolTaskExecutor 171] : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-20 15:36:24.025  INFO [main] [Http11NioProtocol 173] : Starting ProtocolHandler ["http-nio-8080"]
+2018-11-20 15:36:24.038  INFO [main] [NioSelectorPool 173] : Using a shared selector for servlet write/read
+2018-11-20 15:36:24.053  INFO [main] [TomcatWebServer 204] : Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-20 15:36:24.057  INFO [main] [Application 59] : Started Application in 2.674 seconds (JVM running for 3.135)
+2018-11-20 15:36:30.680  INFO [http-nio-8080-exec-1] [[/] 173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-20 15:36:30.680  INFO [http-nio-8080-exec-1] [DispatcherServlet 521] : Initializing Servlet 'dispatcherServlet'
+2018-11-20 15:36:30.686  INFO [http-nio-8080-exec-1] [DispatcherServlet 543] : Completed initialization in 6 ms
+2018-11-20 15:44:52.562 ERROR [http-nio-8080-exec-2] [[dispatcherServlet] 175] : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalStateException: Cannot call sendError() after the response has been committed] with root cause
+java.lang.IllegalStateException: Cannot call sendError() after the response has been committed
+	at org.apache.catalina.connector.ResponseFacade.sendError(ResponseFacade.java:472)
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:454)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:53)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:998)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:890)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:875)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2018-11-20 15:57:50.128  INFO [main] [Application 50] : Starting Application on DESKTOP-S4M69L0 with PID 11160 (D:\github\sso\sso-server\target\classes started by lin in D:\github\sso\sso-server)
+2018-11-20 15:57:50.132  INFO [main] [Application 675] : No active profile set, falling back to default profiles: default
+2018-11-20 15:57:51.769  INFO [main] [TomcatWebServer 90] : Tomcat initialized with port(s): 8080 (http)
+2018-11-20 15:57:51.785  INFO [main] [Http11NioProtocol 173] : Initializing ProtocolHandler ["http-nio-8080"]
+2018-11-20 15:57:51.792  INFO [main] [StandardService 173] : Starting service [Tomcat]
+2018-11-20 15:57:51.793  INFO [main] [StandardEngine 173] : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-20 15:57:51.803  INFO [main] [AprLifecycleListener 173] : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;E:\oracle\product\11.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\myapplication\apache-maven-3.3.9\bin;E:\nodejs\;E:\Git\cmd;E:\Git\bin;C:\Ruby25-x64\bin;C:\Users\lin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Users\lin\AppData\Local\GitHubDesktop\bin;C:\Users\lin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\TortoiseSVN\bin;C:\Users\lin\Desktop\runJRE\ffmpeg\bin;C:\Users\lin\AppData\Roaming\npm;E:\Git\cmd;E:\Git\bin;;.]
+2018-11-20 15:57:51.916  INFO [main] [[/] 173] : Initializing Spring embedded WebApplicationContext
+2018-11-20 15:57:51.916  INFO [main] [ContextLoader 285] : Root WebApplicationContext: initialization completed in 1701 ms
+2018-11-20 15:57:51.943  INFO [main] [ServletRegistrationBean 186] : Servlet dispatcherServlet mapped to [/]
+2018-11-20 15:57:51.947  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-20 15:57:51.947  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-20 15:57:51.947  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-20 15:57:51.948  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-20 15:57:52.152  INFO [main] [ThreadPoolTaskExecutor 171] : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-20 15:57:52.414  INFO [main] [Http11NioProtocol 173] : Starting ProtocolHandler ["http-nio-8080"]
+2018-11-20 15:57:52.429  INFO [main] [NioSelectorPool 173] : Using a shared selector for servlet write/read
+2018-11-20 15:57:52.452  INFO [main] [TomcatWebServer 204] : Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-20 15:57:52.456  INFO [main] [Application 59] : Started Application in 2.818 seconds (JVM running for 3.361)
+2018-11-20 15:58:06.220  INFO [http-nio-8080-exec-1] [[/] 173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-20 15:58:06.220  INFO [http-nio-8080-exec-1] [DispatcherServlet 521] : Initializing Servlet 'dispatcherServlet'
+2018-11-20 15:58:06.227  INFO [http-nio-8080-exec-1] [DispatcherServlet 543] : Completed initialization in 7 ms
+2018-11-20 16:01:25.497 ERROR [http-nio-8080-exec-10] [[dispatcherServlet] 175] : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalStateException: Cannot call sendError() after the response has been committed] with root cause
+java.lang.IllegalStateException: Cannot call sendError() after the response has been committed
+	at org.apache.catalina.connector.ResponseFacade.sendError(ResponseFacade.java:472)
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:454)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:53)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:998)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:890)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:875)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2018-11-20 16:02:12.639  INFO [main] [Application 50] : Starting Application on DESKTOP-S4M69L0 with PID 14012 (D:\github\sso\sso-server\target\classes started by lin in D:\github\sso\sso-server)
+2018-11-20 16:02:12.643  INFO [main] [Application 675] : No active profile set, falling back to default profiles: default
+2018-11-20 16:02:15.223  INFO [main] [TomcatWebServer 90] : Tomcat initialized with port(s): 8080 (http)
+2018-11-20 16:02:15.290  INFO [main] [Http11NioProtocol 173] : Initializing ProtocolHandler ["http-nio-8080"]
+2018-11-20 16:02:15.298  INFO [main] [StandardService 173] : Starting service [Tomcat]
+2018-11-20 16:02:15.300  INFO [main] [StandardEngine 173] : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-20 16:02:15.315  INFO [main] [AprLifecycleListener 173] : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;E:\oracle\product\11.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\myapplication\apache-maven-3.3.9\bin;E:\nodejs\;E:\Git\cmd;E:\Git\bin;C:\Ruby25-x64\bin;C:\Users\lin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Users\lin\AppData\Local\GitHubDesktop\bin;C:\Users\lin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\TortoiseSVN\bin;C:\Users\lin\Desktop\runJRE\ffmpeg\bin;C:\Users\lin\AppData\Roaming\npm;E:\Git\cmd;E:\Git\bin;;.]
+2018-11-20 16:02:15.576  INFO [main] [[/] 173] : Initializing Spring embedded WebApplicationContext
+2018-11-20 16:02:15.577  INFO [main] [ContextLoader 285] : Root WebApplicationContext: initialization completed in 2875 ms
+2018-11-20 16:02:15.649  INFO [main] [ServletRegistrationBean 186] : Servlet dispatcherServlet mapped to [/]
+2018-11-20 16:02:15.655  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-20 16:02:15.656  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-20 16:02:15.656  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-20 16:02:15.656  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-20 16:02:15.979  INFO [main] [ThreadPoolTaskExecutor 171] : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-20 16:02:16.304  INFO [main] [Http11NioProtocol 173] : Starting ProtocolHandler ["http-nio-8080"]
+2018-11-20 16:02:16.322  INFO [main] [NioSelectorPool 173] : Using a shared selector for servlet write/read
+2018-11-20 16:02:16.359  INFO [main] [TomcatWebServer 204] : Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-20 16:02:16.378  INFO [main] [Application 59] : Started Application in 4.445 seconds (JVM running for 6.545)
+2018-11-20 16:02:40.121  INFO [http-nio-8080-exec-1] [[/] 173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-20 16:02:40.121  INFO [http-nio-8080-exec-1] [DispatcherServlet 521] : Initializing Servlet 'dispatcherServlet'
+2018-11-20 16:02:40.126  INFO [http-nio-8080-exec-1] [DispatcherServlet 543] : Completed initialization in 5 ms
+2018-11-20 16:06:10.218  INFO [main] [Application 50] : Starting Application on DESKTOP-S4M69L0 with PID 18676 (D:\github\sso\sso-server\target\classes started by lin in D:\github\sso\sso-server)
+2018-11-20 16:06:10.222  INFO [main] [Application 675] : No active profile set, falling back to default profiles: default
+2018-11-20 16:06:11.729  INFO [main] [TomcatWebServer 90] : Tomcat initialized with port(s): 8080 (http)
+2018-11-20 16:06:11.742  INFO [main] [Http11NioProtocol 173] : Initializing ProtocolHandler ["http-nio-8080"]
+2018-11-20 16:06:11.750  INFO [main] [StandardService 173] : Starting service [Tomcat]
+2018-11-20 16:06:11.750  INFO [main] [StandardEngine 173] : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-20 16:06:11.760  INFO [main] [AprLifecycleListener 173] : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;E:\oracle\product\11.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\myapplication\apache-maven-3.3.9\bin;E:\nodejs\;E:\Git\cmd;E:\Git\bin;C:\Ruby25-x64\bin;C:\Users\lin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Users\lin\AppData\Local\GitHubDesktop\bin;C:\Users\lin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\TortoiseSVN\bin;C:\Users\lin\Desktop\runJRE\ffmpeg\bin;C:\Users\lin\AppData\Roaming\npm;E:\Git\cmd;E:\Git\bin;;.]
+2018-11-20 16:06:11.870  INFO [main] [[/] 173] : Initializing Spring embedded WebApplicationContext
+2018-11-20 16:06:11.871  INFO [main] [ContextLoader 285] : Root WebApplicationContext: initialization completed in 1594 ms
+2018-11-20 16:06:11.900  INFO [main] [ServletRegistrationBean 186] : Servlet dispatcherServlet mapped to [/]
+2018-11-20 16:06:11.905  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-20 16:06:11.906  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-20 16:06:11.906  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-20 16:06:11.906  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-20 16:06:12.142  INFO [main] [ThreadPoolTaskExecutor 171] : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-20 16:06:12.408  INFO [main] [Http11NioProtocol 173] : Starting ProtocolHandler ["http-nio-8080"]
+2018-11-20 16:06:12.424  INFO [main] [NioSelectorPool 173] : Using a shared selector for servlet write/read
+2018-11-20 16:06:12.449  INFO [main] [TomcatWebServer 204] : Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-20 16:06:12.452  INFO [main] [Application 59] : Started Application in 2.722 seconds (JVM running for 3.243)
+2018-11-20 16:06:13.779  INFO [http-nio-8080-exec-1] [[/] 173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-20 16:06:13.779  INFO [http-nio-8080-exec-1] [DispatcherServlet 521] : Initializing Servlet 'dispatcherServlet'
+2018-11-20 16:06:13.784  INFO [http-nio-8080-exec-1] [DispatcherServlet 543] : Completed initialization in 5 ms
+2018-11-20 16:06:30.058 ERROR [http-nio-8080-exec-5] [[dispatcherServlet] 175] : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ClassCastException: java.util.UUID cannot be cast to java.lang.String] with root cause
+java.lang.ClassCastException: java.util.UUID cannot be cast to java.lang.String
+	at com.yue.sso.server.service.TokenService.verifyToken(TokenService.java:30)
+	at com.yue.sso.server.controller.LoginController.verifyToken(LoginController.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:215)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:142)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:998)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:901)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:875)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2018-11-20 16:06:45.667 ERROR [http-nio-8080-exec-8] [[dispatcherServlet] 175] : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ClassCastException: java.util.UUID cannot be cast to java.lang.String] with root cause
+java.lang.ClassCastException: java.util.UUID cannot be cast to java.lang.String
+	at com.yue.sso.server.service.TokenService.verifyToken(TokenService.java:30)
+	at com.yue.sso.server.controller.LoginController.verifyToken(LoginController.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:215)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:142)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:998)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:901)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:875)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2018-11-20 16:06:45.688 ERROR [http-nio-8080-exec-10] [[dispatcherServlet] 175] : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ClassCastException: java.util.UUID cannot be cast to java.lang.String] with root cause
+java.lang.ClassCastException: java.util.UUID cannot be cast to java.lang.String
+	at com.yue.sso.server.service.TokenService.verifyToken(TokenService.java:30)
+	at com.yue.sso.server.controller.LoginController.verifyToken(LoginController.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:215)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:142)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:998)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:901)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:875)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2018-11-20 16:06:45.704 ERROR [http-nio-8080-exec-2] [[dispatcherServlet] 175] : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ClassCastException: java.util.UUID cannot be cast to java.lang.String] with root cause
+java.lang.ClassCastException: java.util.UUID cannot be cast to java.lang.String
+	at com.yue.sso.server.service.TokenService.verifyToken(TokenService.java:30)
+	at com.yue.sso.server.controller.LoginController.verifyToken(LoginController.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:215)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:142)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:998)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:901)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:875)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2018-11-20 16:06:45.725 ERROR [http-nio-8080-exec-4] [[dispatcherServlet] 175] : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ClassCastException: java.util.UUID cannot be cast to java.lang.String] with root cause
+java.lang.ClassCastException: java.util.UUID cannot be cast to java.lang.String
+	at com.yue.sso.server.service.TokenService.verifyToken(TokenService.java:30)
+	at com.yue.sso.server.controller.LoginController.verifyToken(LoginController.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:215)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:142)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:998)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:901)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:875)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2018-11-20 16:06:45.742 ERROR [http-nio-8080-exec-7] [[dispatcherServlet] 175] : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ClassCastException: java.util.UUID cannot be cast to java.lang.String] with root cause
+java.lang.ClassCastException: java.util.UUID cannot be cast to java.lang.String
+	at com.yue.sso.server.service.TokenService.verifyToken(TokenService.java:30)
+	at com.yue.sso.server.controller.LoginController.verifyToken(LoginController.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:215)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:142)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:998)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:901)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:875)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2018-11-20 16:06:45.765 ERROR [http-nio-8080-exec-8] [[dispatcherServlet] 175] : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ClassCastException: java.util.UUID cannot be cast to java.lang.String] with root cause
+java.lang.ClassCastException: java.util.UUID cannot be cast to java.lang.String
+	at com.yue.sso.server.service.TokenService.verifyToken(TokenService.java:30)
+	at com.yue.sso.server.controller.LoginController.verifyToken(LoginController.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:215)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:142)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:998)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:901)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:875)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2018-11-20 16:06:45.794 ERROR [http-nio-8080-exec-10] [[dispatcherServlet] 175] : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ClassCastException: java.util.UUID cannot be cast to java.lang.String] with root cause
+java.lang.ClassCastException: java.util.UUID cannot be cast to java.lang.String
+	at com.yue.sso.server.service.TokenService.verifyToken(TokenService.java:30)
+	at com.yue.sso.server.controller.LoginController.verifyToken(LoginController.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:215)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:142)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:998)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:901)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:875)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2018-11-20 16:06:53.363  INFO [main] [Application 50] : Starting Application on DESKTOP-S4M69L0 with PID 13416 (D:\github\sso\sso-server\target\classes started by lin in D:\github\sso\sso-server)
+2018-11-20 16:06:53.369  INFO [main] [Application 675] : No active profile set, falling back to default profiles: default
+2018-11-20 16:06:55.503  INFO [main] [TomcatWebServer 90] : Tomcat initialized with port(s): 8080 (http)
+2018-11-20 16:06:55.532  INFO [main] [Http11NioProtocol 173] : Initializing ProtocolHandler ["http-nio-8080"]
+2018-11-20 16:06:55.541  INFO [main] [StandardService 173] : Starting service [Tomcat]
+2018-11-20 16:06:55.542  INFO [main] [StandardEngine 173] : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-20 16:06:55.553  INFO [main] [AprLifecycleListener 173] : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;E:\oracle\product\11.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\myapplication\apache-maven-3.3.9\bin;E:\nodejs\;E:\Git\cmd;E:\Git\bin;C:\Ruby25-x64\bin;C:\Users\lin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Users\lin\AppData\Local\GitHubDesktop\bin;C:\Users\lin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\TortoiseSVN\bin;C:\Users\lin\Desktop\runJRE\ffmpeg\bin;C:\Users\lin\AppData\Roaming\npm;E:\Git\cmd;E:\Git\bin;;.]
+2018-11-20 16:06:55.776  INFO [main] [[/] 173] : Initializing Spring embedded WebApplicationContext
+2018-11-20 16:06:55.777  INFO [main] [ContextLoader 285] : Root WebApplicationContext: initialization completed in 2335 ms
+2018-11-20 16:06:55.811  INFO [main] [ServletRegistrationBean 186] : Servlet dispatcherServlet mapped to [/]
+2018-11-20 16:06:55.815  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-20 16:06:55.816  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-20 16:06:55.816  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-20 16:06:55.818  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-20 16:06:56.065  INFO [main] [ThreadPoolTaskExecutor 171] : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-20 16:06:56.283  INFO [main] [Http11NioProtocol 173] : Starting ProtocolHandler ["http-nio-8080"]
+2018-11-20 16:06:56.296  INFO [main] [NioSelectorPool 173] : Using a shared selector for servlet write/read
+2018-11-20 16:06:56.313  INFO [main] [TomcatWebServer 204] : Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-20 16:06:56.317  INFO [main] [Application 59] : Started Application in 3.467 seconds (JVM running for 3.95)
+2018-11-20 16:07:01.494  INFO [http-nio-8080-exec-1] [[/] 173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-20 16:07:01.495  INFO [http-nio-8080-exec-1] [DispatcherServlet 521] : Initializing Servlet 'dispatcherServlet'
+2018-11-20 16:07:01.503  INFO [http-nio-8080-exec-1] [DispatcherServlet 543] : Completed initialization in 8 ms
+2018-11-20 16:10:34.747  INFO [main] [Application 50] : Starting Application on DESKTOP-S4M69L0 with PID 4432 (D:\github\sso\sso-server\target\classes started by lin in D:\github\sso\sso-server)
+2018-11-20 16:10:34.750  INFO [main] [Application 675] : No active profile set, falling back to default profiles: default
+2018-11-20 16:10:36.394  INFO [main] [TomcatWebServer 90] : Tomcat initialized with port(s): 8080 (http)
+2018-11-20 16:10:36.408  INFO [main] [Http11NioProtocol 173] : Initializing ProtocolHandler ["http-nio-8080"]
+2018-11-20 16:10:36.417  INFO [main] [StandardService 173] : Starting service [Tomcat]
+2018-11-20 16:10:36.417  INFO [main] [StandardEngine 173] : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-20 16:10:36.428  INFO [main] [AprLifecycleListener 173] : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;E:\oracle\product\11.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\myapplication\apache-maven-3.3.9\bin;E:\nodejs\;E:\Git\cmd;E:\Git\bin;C:\Ruby25-x64\bin;C:\Users\lin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Users\lin\AppData\Local\GitHubDesktop\bin;C:\Users\lin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\TortoiseSVN\bin;C:\Users\lin\Desktop\runJRE\ffmpeg\bin;C:\Users\lin\AppData\Roaming\npm;E:\Git\cmd;E:\Git\bin;;.]
+2018-11-20 16:10:36.569  INFO [main] [[/] 173] : Initializing Spring embedded WebApplicationContext
+2018-11-20 16:10:36.569  INFO [main] [ContextLoader 285] : Root WebApplicationContext: initialization completed in 1770 ms
+2018-11-20 16:10:36.617  INFO [main] [ServletRegistrationBean 186] : Servlet dispatcherServlet mapped to [/]
+2018-11-20 16:10:36.623  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-20 16:10:36.624  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-20 16:10:36.624  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-20 16:10:36.624  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-20 16:10:37.012  INFO [main] [ThreadPoolTaskExecutor 171] : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-20 16:10:37.295  INFO [main] [Http11NioProtocol 173] : Starting ProtocolHandler ["http-nio-8080"]
+2018-11-20 16:10:37.306  INFO [main] [NioSelectorPool 173] : Using a shared selector for servlet write/read
+2018-11-20 16:10:37.319  INFO [main] [TomcatWebServer 204] : Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-20 16:10:37.322  INFO [main] [Application 59] : Started Application in 3.083 seconds (JVM running for 3.564)
+2018-11-20 16:10:56.402  INFO [http-nio-8080-exec-2] [[/] 173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-20 16:10:56.402  INFO [http-nio-8080-exec-2] [DispatcherServlet 521] : Initializing Servlet 'dispatcherServlet'
+2018-11-20 16:10:56.408  INFO [http-nio-8080-exec-2] [DispatcherServlet 543] : Completed initialization in 5 ms
+2018-11-20 16:13:10.483  INFO [main] [Application 50] : Starting Application on DESKTOP-S4M69L0 with PID 7752 (D:\github\sso\sso-server\target\classes started by lin in D:\github\sso\sso-server)
+2018-11-20 16:13:10.488  INFO [main] [Application 675] : No active profile set, falling back to default profiles: default
+2018-11-20 16:13:12.930  INFO [main] [TomcatWebServer 90] : Tomcat initialized with port(s): 8080 (http)
+2018-11-20 16:13:12.944  INFO [main] [Http11NioProtocol 173] : Initializing ProtocolHandler ["http-nio-8080"]
+2018-11-20 16:13:12.956  INFO [main] [StandardService 173] : Starting service [Tomcat]
+2018-11-20 16:13:12.957  INFO [main] [StandardEngine 173] : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-20 16:13:12.969  INFO [main] [AprLifecycleListener 173] : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;E:\oracle\product\11.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\myapplication\apache-maven-3.3.9\bin;E:\nodejs\;E:\Git\cmd;E:\Git\bin;C:\Ruby25-x64\bin;C:\Users\lin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Users\lin\AppData\Local\GitHubDesktop\bin;C:\Users\lin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\TortoiseSVN\bin;C:\Users\lin\Desktop\runJRE\ffmpeg\bin;C:\Users\lin\AppData\Roaming\npm;E:\Git\cmd;E:\Git\bin;;.]
+2018-11-20 16:13:13.111  INFO [main] [[/] 173] : Initializing Spring embedded WebApplicationContext
+2018-11-20 16:13:13.111  INFO [main] [ContextLoader 285] : Root WebApplicationContext: initialization completed in 2556 ms
+2018-11-20 16:13:13.173  INFO [main] [ServletRegistrationBean 186] : Servlet dispatcherServlet mapped to [/]
+2018-11-20 16:13:13.178  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-20 16:13:13.179  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-20 16:13:13.180  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-20 16:13:13.181  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-20 16:13:13.377  INFO [main] [ThreadPoolTaskExecutor 171] : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-20 16:13:13.644  INFO [main] [Http11NioProtocol 173] : Starting ProtocolHandler ["http-nio-8080"]
+2018-11-20 16:13:13.671  INFO [main] [NioSelectorPool 173] : Using a shared selector for servlet write/read
+2018-11-20 16:13:13.691  INFO [main] [TomcatWebServer 204] : Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-20 16:13:13.695  INFO [main] [Application 59] : Started Application in 3.876 seconds (JVM running for 5.179)
+2018-11-20 16:13:30.562  INFO [http-nio-8080-exec-1] [[/] 173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-20 16:13:30.562  INFO [http-nio-8080-exec-1] [DispatcherServlet 521] : Initializing Servlet 'dispatcherServlet'
+2018-11-20 16:13:30.567  INFO [http-nio-8080-exec-1] [DispatcherServlet 543] : Completed initialization in 4 ms
+2018-11-20 16:15:02.948  INFO [main] [Application 50] : Starting Application on DESKTOP-S4M69L0 with PID 14192 (D:\github\sso\sso-server\target\classes started by lin in D:\github\sso\sso-server)
+2018-11-20 16:15:02.972  INFO [main] [Application 675] : No active profile set, falling back to default profiles: default
+2018-11-20 16:15:04.845  INFO [main] [TomcatWebServer 90] : Tomcat initialized with port(s): 8080 (http)
+2018-11-20 16:15:04.867  INFO [main] [Http11NioProtocol 173] : Initializing ProtocolHandler ["http-nio-8080"]
+2018-11-20 16:15:04.875  INFO [main] [StandardService 173] : Starting service [Tomcat]
+2018-11-20 16:15:04.876  INFO [main] [StandardEngine 173] : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-20 16:15:04.889  INFO [main] [AprLifecycleListener 173] : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;E:\oracle\product\11.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\myapplication\apache-maven-3.3.9\bin;E:\nodejs\;E:\Git\cmd;E:\Git\bin;C:\Ruby25-x64\bin;C:\Users\lin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Users\lin\AppData\Local\GitHubDesktop\bin;C:\Users\lin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\TortoiseSVN\bin;C:\Users\lin\Desktop\runJRE\ffmpeg\bin;C:\Users\lin\AppData\Roaming\npm;E:\Git\cmd;E:\Git\bin;;.]
+2018-11-20 16:15:05.019  INFO [main] [[/] 173] : Initializing Spring embedded WebApplicationContext
+2018-11-20 16:15:05.019  INFO [main] [ContextLoader 285] : Root WebApplicationContext: initialization completed in 1911 ms
+2018-11-20 16:15:05.050  INFO [main] [ServletRegistrationBean 186] : Servlet dispatcherServlet mapped to [/]
+2018-11-20 16:15:05.056  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-20 16:15:05.056  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-20 16:15:05.056  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-20 16:15:05.056  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-20 16:15:05.281  INFO [main] [ThreadPoolTaskExecutor 171] : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-20 16:15:05.563  INFO [main] [Http11NioProtocol 173] : Starting ProtocolHandler ["http-nio-8080"]
+2018-11-20 16:15:05.583  INFO [main] [NioSelectorPool 173] : Using a shared selector for servlet write/read
+2018-11-20 16:15:05.607  INFO [main] [TomcatWebServer 204] : Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-20 16:15:05.610  INFO [main] [Application 59] : Started Application in 3.547 seconds (JVM running for 4.313)
+2018-11-20 16:15:45.990  INFO [http-nio-8080-exec-1] [[/] 173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-20 16:15:45.990  INFO [http-nio-8080-exec-1] [DispatcherServlet 521] : Initializing Servlet 'dispatcherServlet'
+2018-11-20 16:15:45.995  INFO [http-nio-8080-exec-1] [DispatcherServlet 543] : Completed initialization in 5 ms
+2018-11-20 16:20:46.198  INFO [main] [Application 50] : Starting Application on DESKTOP-S4M69L0 with PID 5180 (D:\github\sso\sso-server\target\classes started by lin in D:\github\sso\sso-server)
+2018-11-20 16:20:46.205  INFO [main] [Application 675] : No active profile set, falling back to default profiles: default
+2018-11-20 16:20:48.079  INFO [main] [TomcatWebServer 90] : Tomcat initialized with port(s): 8080 (http)
+2018-11-20 16:20:48.090  INFO [main] [Http11NioProtocol 173] : Initializing ProtocolHandler ["http-nio-8080"]
+2018-11-20 16:20:48.096  INFO [main] [StandardService 173] : Starting service [Tomcat]
+2018-11-20 16:20:48.097  INFO [main] [StandardEngine 173] : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-20 16:20:48.106  INFO [main] [AprLifecycleListener 173] : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;E:\oracle\product\11.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\myapplication\apache-maven-3.3.9\bin;E:\nodejs\;E:\Git\cmd;E:\Git\bin;C:\Ruby25-x64\bin;C:\Users\lin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Users\lin\AppData\Local\GitHubDesktop\bin;C:\Users\lin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\TortoiseSVN\bin;C:\Users\lin\Desktop\runJRE\ffmpeg\bin;C:\Users\lin\AppData\Roaming\npm;E:\Git\cmd;E:\Git\bin;;.]
+2018-11-20 16:20:48.209  INFO [main] [[/] 173] : Initializing Spring embedded WebApplicationContext
+2018-11-20 16:20:48.209  INFO [main] [ContextLoader 285] : Root WebApplicationContext: initialization completed in 1860 ms
+2018-11-20 16:20:48.238  INFO [main] [ServletRegistrationBean 186] : Servlet dispatcherServlet mapped to [/]
+2018-11-20 16:20:48.243  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-20 16:20:48.244  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-20 16:20:48.244  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-20 16:20:48.244  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-20 16:20:48.465  INFO [main] [ThreadPoolTaskExecutor 171] : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-20 16:20:48.705  INFO [main] [Http11NioProtocol 173] : Starting ProtocolHandler ["http-nio-8080"]
+2018-11-20 16:20:48.723  INFO [main] [NioSelectorPool 173] : Using a shared selector for servlet write/read
+2018-11-20 16:20:48.747  INFO [main] [TomcatWebServer 204] : Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-20 16:20:48.750  INFO [main] [Application 59] : Started Application in 3.449 seconds (JVM running for 4.149)
+2018-11-20 16:20:58.190  INFO [http-nio-8080-exec-1] [[/] 173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-20 16:20:58.190  INFO [http-nio-8080-exec-1] [DispatcherServlet 521] : Initializing Servlet 'dispatcherServlet'
+2018-11-20 16:20:58.196  INFO [http-nio-8080-exec-1] [DispatcherServlet 543] : Completed initialization in 5 ms
+2018-11-20 18:49:36.852  INFO [main] [Application 50] : Starting Application on DESKTOP-S4M69L0 with PID 19200 (D:\github\sso\sso-server\target\classes started by lin in D:\github\sso\sso-server)
+2018-11-20 18:49:36.857  INFO [main] [Application 675] : No active profile set, falling back to default profiles: default
+2018-11-20 18:49:38.676  INFO [main] [TomcatWebServer 90] : Tomcat initialized with port(s): 8080 (http)
+2018-11-20 18:49:38.688  INFO [main] [Http11NioProtocol 173] : Initializing ProtocolHandler ["http-nio-8080"]
+2018-11-20 18:49:38.698  INFO [main] [StandardService 173] : Starting service [Tomcat]
+2018-11-20 18:49:38.699  INFO [main] [StandardEngine 173] : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-20 18:49:38.708  INFO [main] [AprLifecycleListener 173] : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;E:\oracle\product\11.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\myapplication\apache-maven-3.3.9\bin;E:\nodejs\;E:\Git\cmd;E:\Git\bin;C:\Ruby25-x64\bin;C:\Users\lin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Users\lin\AppData\Local\GitHubDesktop\bin;C:\Users\lin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\TortoiseSVN\bin;C:\Users\lin\Desktop\runJRE\ffmpeg\bin;C:\Users\lin\AppData\Roaming\npm;E:\Git\cmd;E:\Git\bin;;.]
+2018-11-20 18:49:38.803  INFO [main] [[/] 173] : Initializing Spring embedded WebApplicationContext
+2018-11-20 18:49:38.804  INFO [main] [ContextLoader 285] : Root WebApplicationContext: initialization completed in 1899 ms
+2018-11-20 18:49:38.827  INFO [main] [ServletRegistrationBean 186] : Servlet dispatcherServlet mapped to [/]
+2018-11-20 18:49:38.831  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-20 18:49:38.832  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-20 18:49:38.832  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-20 18:49:38.832  INFO [main] [FilterRegistrationBean 248] : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-20 18:49:39.116  INFO [main] [ThreadPoolTaskExecutor 171] : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-20 18:49:39.378  INFO [main] [Http11NioProtocol 173] : Starting ProtocolHandler ["http-nio-8080"]
+2018-11-20 18:49:39.393  INFO [main] [NioSelectorPool 173] : Using a shared selector for servlet write/read
+2018-11-20 18:49:39.409  INFO [main] [TomcatWebServer 204] : Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-20 18:49:39.413  INFO [main] [Application 59] : Started Application in 3.039 seconds (JVM running for 3.566)
+2018-11-20 18:50:09.023  INFO [http-nio-8080-exec-1] [[/] 173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-20 18:50:09.023  INFO [http-nio-8080-exec-1] [DispatcherServlet 521] : Initializing Servlet 'dispatcherServlet'
+2018-11-20 18:50:09.029  INFO [http-nio-8080-exec-1] [DispatcherServlet 543] : Completed initialization in 6 ms

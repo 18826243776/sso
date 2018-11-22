@@ -1,0 +1,40 @@
+<!-- Logback configuration. See http://logback.qos.ch/manual/index.html -->
+<configuration scan="true" scanPeriod="60 seconds" debug="false">
+    <property name="LOG_HOME" value="./log"/>
+    <property name="COLOR_PATTERN" value="%yellow(%d{yyyy-MM-dd HH:mm:ss.SSS}) %highlight(%level) %cyan([%t]) %green([%logger{0} %L]) : %m%n"/>
+    <property name="WHITE_PATTERN" value="%d{yyyy-MM-dd HH:mm:ss.SSS} %5level [%t] [%logger{0} %L] : %m%n"/>
+    <!--输出到控制台-->
+    <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+        <!--<filter class="ch.qos.logback.classic.filter.ThresholdFilter">-->
+        <!--<level>ERROR</level>-->
+        <!--</filter>-->
+        <encoder>
+            <pattern>${COLOR_PATTERN}</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+    <!--输出到文件-->
+    <appender name="file" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_HOME}/srp.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${LOG_HOME}/history/srp.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>${WHITE_PATTERN}</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+
+    </appender>
+
+    <!--根节点-->
+    <root level="info">
+        <appender-ref ref="console"/>
+        <appender-ref ref="file"/>
+    </root>
+
+    <!--<logger name="com.cgs.rtd.rtdbus.impl" level="ERROR" additivity="false">-->
+        <!--<appender-ref ref="console"/>-->
+    <!--</logger>-->
+
+</configuration>
